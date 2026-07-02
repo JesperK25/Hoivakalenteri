@@ -6,7 +6,7 @@ sen kalenteriin — ja tieto siitä, ettei käyntiä tarvita, näkyy heti sekä 
 työntekijälle että esimiehelle.
 
 Rakennettu portfolioprojektiksi, joka yhdistää sote-alan käytännön kokemuksen (työskentelen
-hoiva-avustajana) ja full stack -osaamisen.
+Lähihoitajana kotihoidossa) ja full stack -osaamisen.
 
 ![Poikkeuksen merkitseminen](docs/screenshots/03-poikkeus-modaali.png)
 
