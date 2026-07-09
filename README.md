@@ -15,15 +15,15 @@ Lähihoitajana kotihoidossa) ja full stack -osaamisen.
 1. **Omainen** merkitsee kalenterista käynnin, jota ei tarvita ("haen asiakkaan itse", "asiakas
    sairaalassa", tms.)
 2. Käynti näkyy välittömästi **peruttuna** sekä käynnistä vastaavan **työntekijän** että
-   **esimiehen** kalenterissa — kukaan ei tee turhaa kotikäyntiä.
-3. **Esimies** hallinnoi asiakkaita, käyttäjiä (työntekijät/omaiset) ja heidän liitoksiaan
+   **esihenkilön** kalenterissa — kukaan ei tee turhaa kotikäyntiä.
+3. **Esihenkilö** hallinnoi asiakkaita, käyttäjiä (työntekijät/omaiset) ja heidän liitoksiaan
    asiakkaisiin, sekä aikatauluttaa käynnit.
 
 | Rooli | Näkee kalenterissa | Voi tehdä |
 |---|---|---|
 | Omainen | Vain oman/liitettyjen asiakkaiden käynnit | Merkitä/peruuttaa poikkeuksen omille asiakkailleen |
 | Työntekijä | Vain omat aikataulutetut käynnit | Ei voi merkitä poikkeuksia (vain vastaanottaa tiedon) |
-| Esimies | Kaikki käynnit | Hallinnoi asiakkaita, käyttäjiä, liitoksia ja käyntejä; voi merkitä poikkeuksen omaisen puolesta |
+| Esihenkilö | Kaikki käynnit | Hallinnoi asiakkaita, käyttäjiä, liitoksia ja käyntejä; voi merkitä poikkeuksen omaisen puolesta |
 
 ## Arkkitehtuuri
 
@@ -66,7 +66,7 @@ http://localhost:8000/docs.
 
 ### Demokäyttäjät (salasana kaikille: `demo1234`)
 
-- `esimies@hoivakalenteri.fi` — esimies
+- `esimies@hoivakalenteri.fi` — esihenkilö
 - `tyontekija1@hoivakalenteri.fi` / `tyontekija2@hoivakalenteri.fi` — työntekijät
 - `omainen1@hoivakalenteri.fi` / `omainen2@hoivakalenteri.fi` — omaiset
 
